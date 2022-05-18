@@ -1,22 +1,20 @@
 import React from 'react';
 import '../styles/style.css';
+import project1 from '../assets/logo192.png';
 
 export default function Home() {
   return (
     <div class = "padding">
       <h1> About Me</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+      <div class= "card-deck">
+      <div class="card m-4 cardheader">
+          <img class="profile-pic" src= {project1} alt="Card image cap"></img>
+            <div class="card-body">
+              <h5 class="card-title">Amy Wilhoite</h5>
+            </div>
+        </div>
+        <p>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     </div>
+</div>
   );
 }
