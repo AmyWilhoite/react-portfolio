@@ -13,8 +13,8 @@ export default function Home() {
               <h5 class="card-title">Amy Wilhoite</h5>
             </div>
         </div>
-        <p>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
     </div>
-</div>
   );
 }
