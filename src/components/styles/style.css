@@ -8,3 +8,15 @@
   text-align: center;
   font-size: 3rem;
 }
+
+.cardheader {
+  max-width: 20rem;
+  display: inline-block;
+}
+
+.card-deck {
+  display: flex;
+  flex-direction:row;
+
+}
+

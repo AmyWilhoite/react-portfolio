@@ -1,18 +1,83 @@
 import React from 'react';
+import '../styles/style.css';
+import project1 from '../assets/logo192.png';
 
 
 export default function About() {
   return (
     <div class= "padding">
-      <h1>Portfolio</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <h1>My Portfolio</h1>
+      <div class="card-deck">
+        <div class="card m-4 cardheader">
+          <img class="card-img-top" src= {project1} alt="Card image cap"></img>
+            <div class="card-body">
+              <h5 class="card-title">Project 1 Title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Repository</small>
+            </div>
+        </div>
+        <div class="card m-4 cardheader">
+        <img class="card-img-top" src= {project1} alt="Card image cap"></img>
+          <div class="card-body">
+            <h5 class="card-title">Project 1 Title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Repository</small>
+          </div>
+      </div>
+      <div class="card m-4 cardheader">
+      <img class="card-img-top" src= {project1} alt="Card image cap"></img>
+        <div class="card-body">
+          <h5 class="card-title">Project 1 Title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Repository</small>
+        </div>
+      </div>
+      </div>
+      <div class="card-deck">
+        <div class="card m-4 cardheader">
+          <img class="card-img-top" src= {project1} alt="Card image cap"></img>
+            <div class="card-body">
+              <h5 class="card-title">Project 1 Title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Repository</small>
+            </div>
+        </div>
+        <div class="card m-4 cardheader">
+        <img class="card-img-top" src= {project1} alt="Card image cap"></img>
+          <div class="card-body">
+            <h5 class="card-title">Project 1 Title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Repository</small>
+          </div>
+      </div>
+      <div class="card m-4 cardheader">
+      <img class="card-img-top" src= {project1} alt="Card image cap"></img>
+        <div class="card-body">
+          <h5 class="card-title">Project 1 Title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Repository</small>
+        </div>
+      </div>
+      </div>
     </div>
+    
   );
 }
