@@ -32,10 +32,29 @@ export default function PortfolioContainer() {
         {/* Here we are calling the renderPage method which will return a component  */}
         {renderPage()}
       </div>
-      <div class="card">
-          <div class="card-footer p-5">
-          <small class="text-muted"> card footer text </small>
+      <div class ="bg-light p-5">
+        <div class ="card-deck row">
+          <div class="card bg-light border-0 col text-center">
+              <div>
+              <small class="text-muted"> EMAIL  </small>
+              </div>
           </div>
+          <div class="card bg-light border-0 col text-center">
+              <div>
+              <small class="text-muted"> PHONE 323-510-1025  </small>
+              </div>
+          </div>
+          <div class="card bg-light border-0 col text-center">
+              <div>
+              <small class="text-muted"> GITHUB  </small>
+              </div>
+          </div>
+          <div class="card bg-light border-0 col text-center">
+              <div>
+              <small class="text-muted"> LINKEDIN  </small>
+              </div>
+          </div>
+        </div>
       </div>
     </div>
   );

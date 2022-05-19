@@ -9,9 +9,9 @@
   font-size: 3rem;
 }
 
-.cardheader {
+.cardHeader {
   max-width: 20rem;
-  display: inline-block;
+  display: flex;
 }
 
 .card-deck {
@@ -21,7 +21,7 @@
 }
 
 .profile-pic {
-  max-width: 40rem;
+  padding: 1rem;
 }
 
 .footer {

@@ -8,7 +8,7 @@ export default function About() {
     <div class= "padding">
       <h1>My Portfolio</h1>
       <div class="card-deck">
-        <div class="card m-4 cardheader">
+        <div class="card m-4 cardHeader">
           <img class="card-img-top" src= {project1} alt="Card image cap"></img>
             <div class="card-body">
               <h5 class="card-title">Project 1 Title</h5>
@@ -19,7 +19,7 @@ export default function About() {
               <small class="text-muted">Repository</small>
             </div>
         </div>
-        <div class="card m-4 cardheader">
+        <div class="card m-4 cardHeader">
         <img class="card-img-top" src= {project1} alt="Card image cap"></img>
           <div class="card-body">
             <h5 class="card-title">Project 1 Title</h5>
@@ -30,7 +30,7 @@ export default function About() {
             <small class="text-muted">Repository</small>
           </div>
       </div>
-      <div class="card m-4 cardheader">
+      <div class="card m-4 cardHeader">
       <img class="card-img-top" src= {project1} alt="Card image cap"></img>
         <div class="card-body">
           <h5 class="card-title">Project 1 Title</h5>
@@ -43,7 +43,7 @@ export default function About() {
       </div>
       </div>
       <div class="card-deck">
-        <div class="card m-4 cardheader">
+        <div class="card m-4 cardHeader">
           <img class="card-img-top" src= {project1} alt="Card image cap"></img>
             <div class="card-body">
               <h5 class="card-title">Project 1 Title</h5>
@@ -54,7 +54,7 @@ export default function About() {
               <small class="text-muted">Repository</small>
             </div>
         </div>
-        <div class="card m-4 cardheader">
+        <div class="card m-4 cardHeader">
         <img class="card-img-top" src= {project1} alt="Card image cap"></img>
           <div class="card-body">
             <h5 class="card-title">Project 1 Title</h5>
@@ -65,7 +65,7 @@ export default function About() {
             <small class="text-muted">Repository</small>
           </div>
       </div>
-      <div class="card m-4 cardheader">
+      <div class="card m-4 cardHeader">
       <img class="card-img-top" src= {project1} alt="Card image cap"></img>
         <div class="card-body">
           <h5 class="card-title">Project 1 Title</h5>
