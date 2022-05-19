@@ -10,7 +10,7 @@ export default function Home() {
       <h1> About Me</h1>
       <div class= "card-deck container-fluid row">
         <div class="card m-4 cardHeader col-3">
-            <img class="profile-pic img-responsive img-fluid rounded" src= {profileImg} alt="Profile Image"></img>
+            <img class="rounded profile-pic img-responsive img-fluid" src= {profileImg} alt="Profile Image"></img>
               <div class="card-body">
                 <h5 class="card-title text-center">Amy Wilhoite</h5>
               </div>
