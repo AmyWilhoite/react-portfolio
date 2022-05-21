@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/NewContact';
+import { MDBIcon } from 'mdbreact';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -41,12 +42,13 @@ export default function PortfolioContainer() {
           </div>
           <div class="card bg-light border-0 col text-center">
               <div>
-              <small class="text-muted"> PHONE 323-510-1025  </small>
+              <small className="text-muted"> PHONE 323-510-1025  </small>
               </div>
           </div>
           <div class="card bg-light border-0 col text-center">
               <div>
               <small class="text-muted"> GITHUB  </small>
+              <MDBIcon fab icon='github' />
               </div>
           </div>
           <div class="card bg-light border-0 col text-center">
