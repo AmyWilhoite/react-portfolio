@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/style.css';
 import about from '../assets/amyGit.png';
-import background from '../assets/amyGit.png';
 import profileImg from '../assets/meReact.jpeg';
 
 export default function Home() {
@@ -15,12 +14,13 @@ export default function Home() {
                 <h5 className="card-title text-center">Amy Wilhoite</h5>
               </div>
         </div>
-        <div className="card m-4 cardHeader col border-0">
+        <div className="card m-4 cardHeader border-0">
                 <img className="img-responsive rounded" src= {about} alt="Profile Image"></img>
         </div>
-        <div style ={{
-          backgroundImage: `url(${background})`}}>
+        <div className="card m-4 cardHeader col-9 border-0">
+          <p>I'm a very ambitious excited learner who is currently exploring full stack software development. I have a knowledge of many industries, professional experience in business operations including finance, legal, compliance and processes and enjoy learning new technologies to help businesses grow.</p>
         </div>
+      
       </div>
     </div>
 

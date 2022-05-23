@@ -42,7 +42,7 @@ export default function PortfolioContainer() {
           </div>
           <div className="card bg-light border-0 col text-center">
               <div>
-              <a href="tel:+1-555-555-1212" className ="small text-muted">PHONE</a>
+              <a href="tel:+1-323-510-1025" className ="small text-muted">PHONE</a>
               </div>
           </div>
           <div className="card bg-light border-0 col text-center">
@@ -53,7 +53,7 @@ export default function PortfolioContainer() {
           </div>
           <div className="card bg-light border-0 col text-center">
               <div>
-              <a href="https://github.com/AmyWilhoite" className ="small text-muted">LINKEDIN</a>
+              <a href="https://www.linkedin.com/in/amy-w-4834435/" className ="small text-muted">LINKEDIN</a>
               </div>
           </div>
         </div>
