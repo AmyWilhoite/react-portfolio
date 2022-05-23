@@ -33,27 +33,27 @@ export default function PortfolioContainer() {
         {/* Here we are calling the renderPage method which will return a component  */}
         {renderPage()}
       </div>
-      <div class ="bg-light p-5">
-        <div class ="card-deck row">
-          <div class="card bg-light border-0 col text-center">
+      <div className ="bg-light p-5">
+        <div className ="card-deck row">
+          <div className="card bg-light border-0 col text-center">
               <div>
-              <small class="text-muted"> EMAIL  </small>
+               <a href="mailto:amygitmail@gmail.com" className ="small text-muted">E-MAIL</a>
               </div>
           </div>
-          <div class="card bg-light border-0 col text-center">
+          <div className="card bg-light border-0 col text-center">
               <div>
-              <small className="text-muted"> PHONE 323-510-1025  </small>
+              <a href="tel:+1-555-555-1212" className ="small text-muted">PHONE</a>
               </div>
           </div>
-          <div class="card bg-light border-0 col text-center">
+          <div className="card bg-light border-0 col text-center">
               <div>
-              <small class="text-muted"> GITHUB  </small>
+              <a href="https://github.com/AmyWilhoite" className ="small text-muted">GITHUB</a>
               <MDBIcon fab icon='github' />
               </div>
           </div>
-          <div class="card bg-light border-0 col text-center">
+          <div className="card bg-light border-0 col text-center">
               <div>
-              <small class="text-muted"> LINKEDIN  </small>
+              <a href="https://github.com/AmyWilhoite" className ="small text-muted">LINKEDIN</a>
               </div>
           </div>
         </div>

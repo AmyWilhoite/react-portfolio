@@ -3,7 +3,7 @@ import '../styles/style.css';
 
 export default function Contact() {
   return (
-    <div class= "padding">
+    <div className= "padding">
       <h1>Contact Page</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis

@@ -5,7 +5,7 @@ import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon } from 'mdbreact';
 const FormPage = () => {
   return (
     <MDBContainer>
-      <MDBRow class= "padding">
+      <MDBRow className= "padding">
         <MDBCol md="6">
           <form>
             <h1>Contact Me</h1>
