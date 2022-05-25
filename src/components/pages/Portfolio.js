@@ -5,10 +5,11 @@ import project6 from '../assets/reddit.png';
 import project3 from '../assets/notetaker1.png';
 import project4 from '../assets/workday.png';
 import project5 from '../assets/weather.png';
-import project1 from '../assets/weather.png';
+import project1 from '../assets/react-portfolio.png';
+import { MDBIcon } from 'mdbreact';
 
 
-export default function About() {
+export default function Portfolio() {
   return (
     <div className= "padding">
       <h1>My Portfolio</h1>
@@ -17,11 +18,13 @@ export default function About() {
           <img className="card-img-top" src= {project1} alt="Card image cap"></img>
             <div className="card-body">
               <h5 className="card-title">React Portfolio</h5>
-              <p className="card-text">My react portfolio </p>
-              <a href="https://tech-blog-78130.herokuapp.com/" className="btn btn-primary">React Portfolio</a>
+              <p className="card-text">My react portfolio...a client side react application displaying my Georgia Tech projects.</p>
+              <p>This app uses React, jsx, css, and mdb react.</p>
+              <a href="https://tech-blog-78130.herokuapp.com/" className="btn btn-primary">React App</a>
             </div>
             <div className="card-footer">
-              <small className="text-muted">React Repository</small>
+            <MDBIcon fab icon='github'/>
+            <a href="https://github.com/AmyWilhoite/react-portfolio.git" className="small text-muted">   React App</a>
             </div>
         </div>
         <div className="card m-4 cardHeader">
@@ -33,7 +36,8 @@ export default function About() {
             <a href="https://tech-blog-fun.herokuapp.com" className="btn btn-primary">Tech Blog</a>
           </div>
           <div className="card-footer">
-            <a href="https://github.com/AmyWilhoite/tech-blog-78130.git" className ="small text-muted">Tech Blog Repository</a>
+            <MDBIcon fab icon='github'/>
+            <a href="https://github.com/AmyWilhoite/tech-blog-78130.git" className ="small text-muted">   Tech Blog Repository</a>
           </div>
       </div>
       <div className="card m-4 cardHeader">
@@ -44,7 +48,8 @@ export default function About() {
           <a href="https://mysterious-sands-29258.herokuapp.com/" className="btn btn-primary">Note Taker App</a>
         </div>
         <div className="card-footer">
-          <a href="https://github.com/AmyWilhoite/note-taker.git" className ="small text-muted">Note Taker Repository</a>
+          <MDBIcon fab icon='github'/>
+          <a href="https://github.com/AmyWilhoite/note-taker.git" className ="small text-muted">   Note Taker Repository</a>
         </div>
       </div>
       </div>
@@ -57,7 +62,8 @@ export default function About() {
               <a href="https://amywilhoite.github.io/05-Work-Day-Scheduler/" className="btn btn-primary">Work Day App</a>
             </div>
             <div className="card-footer">
-            <a href="https://github.com/AmyWilhoite/05-Work-Day-Scheduler.git" className ="small text-muted">Work Day Repository</a>
+            <MDBIcon fab icon='github'/>
+            <a href="https://github.com/AmyWilhoite/05-Work-Day-Scheduler.git" className ="small text-muted">    Work Day Repository</a>
             </div>
         </div>
         <div className="card m-4 cardHeader">
@@ -69,7 +75,8 @@ export default function About() {
             <a href="https://amywilhoite.github.io/06-weather-dashboard/" className="btn btn-primary">Weather App</a>
           </div>
           <div className="card-footer">
-          <a href="https://github.com/AmyWilhoite/react-portfolio.git" className ="small text-muted">Weather App Repository</a>
+          <MDBIcon fab icon='github'/>
+          <a href="https://github.com/AmyWilhoite/react-portfolio.git" className ="small text-muted">   Weather App Repository</a>
           </div>
       </div>
       <div className="card m-4 cardHeader">
@@ -81,7 +88,8 @@ export default function About() {
           <a href="https://amywilhoite.github.io/reddit-data-dive/" className="btn btn-primary">Reddit App</a>
         </div>
         <div className="card-footer">
-        <a href="https://github.com/AmyWilhoite/reddit-data-dive.git" className ="small text-muted">Reddit App Repository</a>
+        <MDBIcon fab icon='github'/>
+        <a href="https://github.com/AmyWilhoite/reddit-data-dive.git" className ="small text-muted">   Reddit App Repository</a>
         </div>
       </div>
       </div>
