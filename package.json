@@ -1,6 +1,7 @@
 {
   "name": "00-practice-app",
   "version": "0.1.0",
+  "homepage": "https://github.com/AmyWilhoite/react-portfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
@@ -49,8 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "homepage": [
-      "https://amywilhoite.github.io/react-portfolio/"
-    ]
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
   }
 }
