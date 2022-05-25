@@ -5,11 +5,10 @@ Here's my professional portfolio or work, created with react!
 This is a front end application using react to display my portfolio of work through this bootcamp. This app uses React, jsx, css, and mdb react.
 
 ## Preview
-*  ![profile](/assets/react-profile.png)
-
+*  ![profile](./src/components/assets/react-portfolio.png)
 
 
 ## Links
-* GitHub Page: https://github.com/AmyWilhoite/social.git
+* GitHub Page: https://amywilhoite.github.io/react-portfolio/
 * Repository: https://github.com/AmyWilhoite/react-portfolio.git
 

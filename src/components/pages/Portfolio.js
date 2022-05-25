@@ -20,7 +20,7 @@ export default function Portfolio() {
               <h5 className="card-title">React Portfolio</h5>
               <p className="card-text">My react portfolio...a client side react application displaying my Georgia Tech projects.</p>
               <p>This app uses React, jsx, css, and mdb react.</p>
-              <a href="https://tech-blog-78130.herokuapp.com/" className="btn btn-primary">React App</a>
+              <a href="https://amywilhoite.github.io/react-portfolio/" className="btn btn-primary">React App</a>
             </div>
             <div className="card-footer">
             <MDBIcon fab icon='github'/>
