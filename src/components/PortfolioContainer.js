@@ -3,7 +3,7 @@ import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
-import Contact from './pages/NewContact';
+import Contact from './pages/Contact';
 import { MDBIcon } from 'mdbreact';
 
 export default function PortfolioContainer() {
