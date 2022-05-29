@@ -31,24 +31,24 @@ export default function Contact() {
 
         <div className="padding">
           <h1>Contact Page</h1>
-          <div className="container-fluid card row">
+          <div className="container-fluid card row pt-4">
           <form>
               
-              <div className="form-outline mb-4">
+              <div className="form-outline mb-4 border">
                 <input type="text" id="form4Example1" className="form-control" />
-                <label className="form-label" for="form4Example1">Name</label>
+                <label className="form-label" for="form4Example1">Your Name</label>
               </div>
 
               
-              <div className="form-outline mb-4">
+              <div className="form-outline mb-4 border">
                 <input type="email" id="form4Example2" className="form-control" />
-                <label className="form-label" for="form4Example2">Email address</label>
+                <label className="form-label" for="form4Example2">Your Email</label>
               </div>
 
               
-              <div className="form-outline mb-4">
+              <div className="form-outline mb-4 border">
                 <textarea className="form-control" id="form4Example3" rows="4"></textarea>
-                <label className="form-label" for="form4Example3">Message</label>
+                <label className="form-label" for="form4Example3">Send Me a Message</label>
               </div>
 
              
