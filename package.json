@@ -27,11 +27,13 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages-deploy",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "clean-source": "rimraf README.md src webroot package.json",
+    "deploy": "gh-pages-deploy -- 'A custom commit message'"
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +54,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "gh-pages-deploy": "^0.5.1"
   }
 }
