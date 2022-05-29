@@ -14,7 +14,7 @@ export default function Home() {
                 <h5 className="card-title text-center">Amy Wilhoite</h5>
               </div>
         </div>
-        <div className="col mw-100 card m-4 cardHeader border-0 font-italic">
+        <div className="col mw-100 card m-4 p-5 cardHeader border-0 font-italic">
           <p>I'm a very ambitious excited learner who is currently exploring full stack software development. </p>
           <p>I have a knowledge of many industries, professional experience in business operations including finance, legal, compliance and processes. </p> 
           <p>I've worked extensively in product launch concept to completion and I also enjoy learning new technologies to help businesses grow.</p>

@@ -37,13 +37,13 @@ export default function PortfolioContainer() {
         <div className ="card-deck row">
           <div className="card bg-light border-0 col text-center link-active">
               <div>
-               <MDBIcon fab icon='envelope'/>
+                <i class="fas fa-envelope"></i>
                <a href="mailto:amygitmail@gmail.com" className ="small text-muted"> E-MAIL</a>
               </div>
           </div>
           <div className="card bg-light border-0 col text-center">
               <div>
-              <MDBIcon fab icon='phone-alt'/>
+              <i class="fas fa-phone-alt"></i>
               <a href="tel:+1-323-510-1025" className ="small text-muted">  PHONE</a>
               </div>
           </div>
