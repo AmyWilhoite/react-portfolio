@@ -1,5 +1,5 @@
 import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
+import PortfolioContainer from "./src/components/PortfolioContainer";
 // import ContactFormComponent from './components/contact_form.component';
 
 

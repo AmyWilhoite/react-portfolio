@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/style.css";
-import { MDBIcon } from 'mdbreact';
+import { MDBIcon } from "mdbreact";
 
 export default function Resume() {
   return (
@@ -60,7 +60,7 @@ export default function Resume() {
                Management of corporate compliance under the supervision of an attorney for 20 states nationally
               </li>
               <li>
-                Primary responsbility of 7 attorney trust accounts and appropriation of 20-50 million dollars/month on behalf of sellers, buyers, lenders and 3rd parties and report directly to CFO & President.
+                Primary responsibility of 7 attorney trust accounts and appropriation of 20-50 million dollars/month on behalf of sellers, buyers, lenders and 3rd parties and report directly to CFO & President.
               </li>
               <li>
                 Review & ensure contractual, title, lender documents have been met for proper appropriation of lender funds.
