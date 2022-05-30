@@ -5,7 +5,7 @@ Here's my professional portfolio or work, created with react!
 This is a front end application using react to display my portfolio of work through this bootcamp. This app uses React, jsx, css, and mdb react.
 
 ## Preview
-*  ![profile](./src/components/assets/react-portfolio.png)
+*  ![profile](./src/components/assets/meReact.jpeg)
 
 
 ## Links
