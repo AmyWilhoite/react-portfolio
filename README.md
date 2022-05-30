@@ -14,7 +14,7 @@ This is a front end application using react to display my portfolio of work thro
 * React
 
 ## Preview
-*  ![profile](./components/assets/react-portfolio.png)
+*  ![profile](./src/components/assets/react-portfolio.png)
 
 
 ## Links
