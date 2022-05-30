@@ -32,8 +32,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "clean-source": "rimraf README.md src webroot package.json",
-    "deploy": "gh-pages-deploy -- 'A custom commit message'"
+    "clean-source": "rimraf README.md src webroot package.json"
   },
   "eslintConfig": {
     "extends": [
